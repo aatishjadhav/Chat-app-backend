@@ -13,7 +13,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://chatrix-nine.vercel.app/",
+    origin: "https://chatrix-nine.vercel.app",
   },
 });
 
